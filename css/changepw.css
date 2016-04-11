@@ -1,0 +1,45 @@
+html,p,b,table,form {
+  font-size: 16;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+img {
+  margin-bottom: 15px;
+}
+.alert {
+  margin: 5px;
+  padding: 0;
+}
+.form-changepw {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-changepw .form-changepw-heading {
+  margin-bottom: 25px;
+}
+.form-changepw {
+  font-weight: normal;
+}
+.form-changepw .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-changepw .form-control:focus {
+  z-index: 2;
+}
+.form-group {
+  margin-bottom: 0;
+}
+.help-block {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}

@@ -1,0 +1,38 @@
+.flat-clock {
+	display: inline-flex;
+	height: 4rem;
+	font-size: 2em;
+    background: rgba(154,18,179,1);
+	border-radius: 2px;
+	box-shadow: 1px 1px 10px rgba(154,18,179,0.75);;
+	text-align: center;
+}
+.flat-clock span {
+	position: absolute;
+	color: #fff;
+	width: 1.5em;
+	height: 4rem;
+	/*padding-top: 2px;*/
+	margin: 0 2px;
+}
+span.separator1, span.separator2 {
+	padding: 0;
+	margin: 0;
+	width: 0.3em;
+	text-align: center;
+}
+span.hours {
+	left: 7%;
+}
+span.minutes {
+	left: 38%;
+}
+span.seconds {
+	left: 71%;
+}
+span.separator1 {
+	left: 32.5%;
+}
+span.separator2 {
+	left: 65%;
+}

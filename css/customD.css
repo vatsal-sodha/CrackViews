@@ -1,0 +1,93 @@
+#edit-data{
+		text-align: center;
+	}
+	/*.affix {
+			top: 0;
+			width: 100%;
+	}*/
+/*	div.name{
+		/*overflow: auto;
+		display: inline-block;
+		font-size: 24pt;
+		margin-left: 10%;
+		padding-top: 5px;*/
+		}*/
+	div.details{
+		overflow: auto;
+		margin-left: 10%;
+		padding-top: 5px;
+	}
+	a{
+		text-decoration: none;
+		/*font-size: 11pt;*/
+	}
+	a:link{
+		text-decoration: none;
+	}
+	span{
+		padding: 2px;
+		margin: 5px;
+	}
+		/*div.panel-group{
+			
+			width: 50%;
+			margin-left: 10%;
+			padding-top: 5px;
+		}*/
+	p.clg{
+		font-family:'Josefin Sans',sans-serif;
+		font-size: 12pt;
+	}
+	p.year{
+		font-size: 12pt;
+		color:black;
+	}
+	th{
+		text-align: center;
+	}
+	table{
+		margin-top: 1%;
+
+	}
+	/*div.progress{
+		margin-left: 10%;
+		margin-right: 20%;
+		max-height: 20px;
+	}*/
+	div.exp{
+
+		border-radius: 15px;
+		height: 30px;
+		width: 30px;
+		background-color: #1874CD;
+		text-align: center;
+		color: white;
+		padding-top: 5px; 
+	 /* margin-left: 25%;
+		margin-top: 7%;*/
+	}
+	tr.edit{
+		margin:5px;
+	}
+	td.edit{
+		text-align: center;
+	}
+	div.add-education{
+		text-decoration:none;
+		text-align: center;
+		width: 100%;
+		padding: 2%;
+		background-color:#6CA6CD;
+		color: white ;
+	}
+	div.add-education:hover{
+		background-color: #9BC4E2;
+	}
+	div.chart{
+		margin-left: 5%;
+	}
+	div.inline-year{
+		display:inline-block;
+		padding-top: 0px;
+		margin-bottom: 10px;
+	}
